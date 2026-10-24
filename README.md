@@ -73,7 +73,11 @@ irm http://<hub-ip>:5050/bootstrap | iex
   ```powershell
   Invoke-ArkDriverSync
   ```
-- **Contribute / Donate Drivers from Bench PC to Hub:**
+- **Export Drivers to Hub:**
+  ```powershell
+  Export-ArkDriver
+  ```
+- **Contribute / Install and Export Drivers to Hub:**
   ```powershell
   Invoke-ArkDriverSync -Contribute
   ```
