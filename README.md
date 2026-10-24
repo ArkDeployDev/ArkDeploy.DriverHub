@@ -64,7 +64,7 @@ On any client PC or WinPE session, open an elevated PowerShell prompt and run:
 irm http://<hub-ip>:5050/bootstrap | iex
 ```
 
-### 3. Deploy & Match Drivers
+### 3. Deploy, Match & Export Drivers
 - **Simulate & Audit (Preview without installing):**
   ```powershell
   Invoke-ArkDriverSync -Audit
