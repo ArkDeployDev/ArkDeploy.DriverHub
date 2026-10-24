@@ -92,4 +92,3 @@ irm http://<hub-ip>:5050/bootstrap | iex
 
 - **Website:** [ArkDeploy.com](https://www.ArkDeploy.com)
 - **Documentation & Issues:** [ArkDeploy Driver Hub Issues](https://github.com/ArkDeployDev/ArkDeploy.DriverHub/issues)
-- **Development Repository:** [ArkDeployDev/ArkDeploy.Hub](https://github.com/ArkDeployDev/ArkDeploy.Hub)
