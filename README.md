@@ -76,6 +76,7 @@ On the client PC or in WinPE, open an elevated PowerShell prompt and run the fol
 irm http://<hub-ip>:5050/bootstrap | iex
 ```
 
+<<<<<<< HEAD
 ![ArkDeploy PowerShell client](images/Powershell.png)
 
 *Commands for driver deployment, auditing, export, maintenance, and diagnostics, with built-in help and quick-start examples.*
@@ -121,6 +122,25 @@ Invoke-ArkDriverSync -Contribute
 ![Driver Lookup and Match Simulator results](images/MatchSimulator.jpg)
 
 *Inspect a hardware ID, compare ranked driver matches, and preview which base driver and companion extensions would be installed.*
+=======
+### 3. Deploy, Match & Export Drivers
+- **Simulate & Audit (Preview without installing):**
+  ```powershell
+  Invoke-ArkDriverSync -Audit
+  ```
+- **Match & Install Drivers:**
+  ```powershell
+  Invoke-ArkDriverSync
+  ```
+- **Export Drivers to Hub:**
+  ```powershell
+  Export-ArkDriver
+  ```
+- **Contribute / Install and Export Drivers to Hub:**
+  ```powershell
+  Invoke-ArkDriverSync -Contribute
+  ```
+>>>>>>> 3c5badae31a4e25477cce9ec6eafb920160bfe6b
 
 ---
 
@@ -135,4 +155,8 @@ Invoke-ArkDriverSync -Contribute
 ## 🌐 Official Resources
 
 - **Website:** [ArkDeploy.com](https://www.ArkDeploy.com)
+<<<<<<< HEAD
 - **Documentation & Issues:** [ArkDeploy Driver Hub Issues](https://github.com/ArkDeployDev/ArkDeploy.DriverHub/issues)
+=======
+- **Documentation & Issues:** [ArkDeploy Driver Hub Issues](https://github.com/ArkDeployDev/ArkDeploy.DriverHub/issues)
+>>>>>>> 3c5badae31a4e25477cce9ec6eafb920160bfe6b
