@@ -26,8 +26,8 @@
 
 | File | SHA-256 Checksum |
 | :--- | :--- |
-| `ArkDeploy-DriverHub-Setup-v1.0.1-beta.1.exe` | `6db7ad0448be790ca13f159afe16fb6518db4ffb64b720eaaf84a7a2808aa589` |
-| `ArkDeploy-DriverHub-Setup.exe` | `6db7ad0448be790ca13f159afe16fb6518db4ffb64b720eaaf84a7a2808aa589` |
+| `ArkDeploy-DriverHub-Setup-v1.0.1-beta.1.exe` | `be150f9ad6cf55532d400dfbcfc0359da18295328c4c84e2cf9cee6dc6949820` |
+| `ArkDeploy-DriverHub-Setup.exe` | `be150f9ad6cf55532d400dfbcfc0359da18295328c4c84e2cf9cee6dc6949820` |
 
 ---
 
