@@ -1,2 +1,2 @@
-﻿a0a679d845316239bc889e07c87f20b1218b783c5694182397ba6a83c5695078  ArkDeploy-DriverHub-Setup-v1.0.1-beta.1.exe
-a0a679d845316239bc889e07c87f20b1218b783c5694182397ba6a83c5695078  ArkDeploy-DriverHub-Setup.exe
+4b23e88b68901a53cad7f4afff0cf269f834bf4be37ea0586ca31ce0b2ea35f1  ArkDeploy-DriverHub-Setup-v1.0.1-beta.1.exe
+4b23e88b68901a53cad7f4afff0cf269f834bf4be37ea0586ca31ce0b2ea35f1  ArkDeploy-DriverHub-Setup.exe
