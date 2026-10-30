@@ -24,6 +24,7 @@ jobs:
           draft: false
           prerelease: ${{ contains(github.ref_name, 'beta') || contains(github.ref_name, 'rc') }}
           files: |
-            releases/*.exe
+            releases/ArkDeploy-DriverHub-Setup-${{ github.ref_name }}.exe
+            releases/ArkDeploy-DriverHub-Setup.exe
             releases/SHA256SUMS.txt
           generate_release_notes: true
