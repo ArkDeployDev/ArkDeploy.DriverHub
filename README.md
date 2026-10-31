@@ -1,4 +1,4 @@
-# ArkDeploy Driver Hub
+﻿# ArkDeploy Driver Hub
 
 [![Version](https://img.shields.io/badge/version-1.0.3--beta.1-purple.svg)](https://github.com/ArkDeployDev/ArkDeploy.DriverHub/releases)
 [![Platform](https://img.shields.io/badge/platform-Windows%2010%20%7C%2011%20%7C%20Server-blue.svg)](https://www.ArkDeploy.com)
@@ -27,8 +27,8 @@
 
 | File | SHA-256 Checksum |
 | :--- | :--- |
-| `ArkDeploy-DriverHub-Setup-v1.0.3-beta.1.exe` | `a2b83909dd56e75e293c3c02d1286a7b51db159f9cd19708f00622f6ca2a1ca1` |
-| `ArkDeploy-DriverHub-Setup.exe` | `a2b83909dd56e75e293c3c02d1286a7b51db159f9cd19708f00622f6ca2a1ca1` |
+| `ArkDeploy-DriverHub-Setup-v1.0.3-beta.1.exe` | `2a18850ff9348f5bb17083541c40386ca7940363f795169df12e7a943b2f6ddb` |
+| `ArkDeploy-DriverHub-Setup.exe` | `2a18850ff9348f5bb17083541c40386ca7940363f795169df12e7a943b2f6ddb` |
 
 ---
 
