@@ -1,9 +1,10 @@
-﻿# ArkDeploy Driver Hub
+# ArkDeploy Driver Hub
 
 [![Version](https://img.shields.io/badge/version-1.0.3--beta.1-purple.svg)](https://github.com/ArkDeployDev/ArkDeploy.DriverHub/releases)
 [![Platform](https://img.shields.io/badge/platform-Windows%2010%20%7C%2011%20%7C%20Server-blue.svg)](https://www.ArkDeploy.com)
 [![Architecture](https://img.shields.io/badge/arch-x64-lightgrey.svg)](https://www.ArkDeploy.com)
 [![License](https://img.shields.io/badge/license-ArkDeploy%20Commercial%20%2F%20Free%20Tier-green.svg)](https://www.ArkDeploy.com)
+[![WinGet](https://img.shields.io/badge/winget-ArkDeploy.DriverHub-0078D4.svg)](https://github.com/microsoft/winget-pkgs/tree/master/manifests/a/ArkDeploy/DriverHub)
 
 **ArkDeploy Driver Hub** is a high-performance, on-premises driver management platform for IT teams and technicians. Build a central driver library, match drivers to hardware, and install or export them across Windows PCs and WinPE deployment environments. Native Win32 SetupAPI bus scans and content-addressable storage (CAS) deliver precise hardware matching in seconds, reducing reliance on bulky vendor driver packs.
 
@@ -32,6 +33,37 @@
 ---
 
 ## 🚀 Installation
+
+### Option 1: WinGet Package Manager (⭐ Preferred & Recommended)
+
+Windows Package Manager (**WinGet**) is the preferred and recommended installation method for ArkDeploy Driver Hub. WinGet automatically checks, downloads, and installs all system prerequisites—including the **.NET 10 ASP.NET Core Runtime** and **.NET 10 Desktop Runtime**—without requiring any manual dependency setup.
+
+Open an elevated terminal (PowerShell or Command Prompt as Administrator) and run:
+
+```powershell
+winget install ArkDeploy.DriverHub
+```
+
+#### Upgrading via WinGet
+To update an existing installation to the latest release:
+```powershell
+winget upgrade ArkDeploy.DriverHub
+```
+
+#### Uninstalling via WinGet
+```powershell
+winget uninstall ArkDeploy.DriverHub
+```
+
+> [!TIP]
+> **Automatic Prerequisite Resolution**:
+> When installed via WinGet, all runtime dependencies (`Microsoft.DotNet.AspNetCore.10` and `Microsoft.DotNet.DesktopRuntime.10`) are resolved and installed automatically.
+
+---
+
+### Option 2: Standalone Windows Installer (Direct Download)
+
+For air-gapped, offline, or custom deployments, you can download and run the standalone setup package directly from the table above.
 
 ### Interactive Setup (GUI)
 
